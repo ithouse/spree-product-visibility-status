@@ -1,7 +1,7 @@
 require 'spree_core'
-require 'product_visibility_status_hooks'
+require 'spree_product_visibility_status_hooks'
 
-module ProductVisibilityStatus
+module SpreeProductVisibilityStatus
   class Engine < Rails::Engine
 
     config.autoload_paths += %W(#{config.root}/lib)

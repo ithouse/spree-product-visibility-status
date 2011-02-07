@@ -1,8 +1,8 @@
-namespace :product_visibility_status do
+namespace :spree_product_visibility_status do
   desc "Copies all migrations and assets (NOTE: This will be obsolete with Rails 3.1)"
   task :install do
-    Rake::Task['product_visibility_status:install:migrations'].invoke
-    Rake::Task['product_visibility_status:install:assets'].invoke
+    Rake::Task['spree_product_visibility_status:install:migrations'].invoke
+    Rake::Task['spree_product_visibility_status:install:assets'].invoke
   end
 
   namespace :install do
